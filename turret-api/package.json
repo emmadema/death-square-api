@@ -1,17 +1,20 @@
 {
   "name": "turret-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.4",
-    "express": "^4.15.3",
-    "mongoose": "^4.11.4"
-  }
+    "express": "^4.16.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {},
+  "description": ""
 }
